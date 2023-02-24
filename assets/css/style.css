@@ -567,3 +567,116 @@ body {
 .history-text_btns .history-text_btn {
     width: 45%;
 }
+
+.tariffs-cols {
+    display: flex;
+    justify-content: space-between;
+}
+
+.tariffs-col {
+    width: 365px;
+
+}
+
+.tariffs-col_header {
+    padding: 30px 40px;
+    margin-bottom: 15px;
+    background: linear-gradient(127.76deg, #34373F 26.98%, rgba(17, 21, 25, 0.21) 168.18%);
+    box-shadow: 3px 3px 4px #0D0F12, -3px -3px 8px rgba(208, 206, 206, 0.04);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    min-height: 120px;
+}
+
+.tariffs-col_title {
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 24px;
+    display: block;
+    text-align: center;
+}
+
+.tariffs-col_links {
+    margin-top: 10px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.tariffs-col_links a {
+    text-decoration: none;
+    color: #D2E0F0;
+    font-size: 20px;
+    line-height: 24px;
+    border-bottom: transparent 1px solid;
+}
+
+.tariffs-col_links a.active {
+    border-bottom-color: #D2E0F0;
+    font-weight: 700;
+}
+
+.tariffs-col_data {
+    background: linear-gradient(127.76deg, #34373F 26.98%, rgba(17, 21, 25, 0.21) 168.18%);
+    box-shadow: 3px 3px 4px #0D0F12, -3px -3px 8px rgba(208, 206, 206, 0.04);
+    border-radius: 10px;
+    padding: 30px 20px;
+    height: 490px;
+}
+
+.tariffs-col_data ul {
+    list-style-type: none;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.tariffs-col_data ul li {
+    padding-left: 20px;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.tariffs-col_data ul li:before {
+    display: block;
+    content: '';
+    width: 14px;
+    height: 15px;
+    background-image: url("../img/check-li.webp");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 5px;
+    left: 0;
+}
+
+.tariffs-col_btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #D2E0F0;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 18px;
+    background: linear-gradient(114.82deg, #34373F 46.26%, rgba(17, 21, 25, 0.21) 125.98%);
+    border: 0.5px solid #2EB0F4;
+    border-radius: 5px;
+    width: 270px;
+    height: 30px;
+    min-height: 30px;
+    margin: 0px auto 0px;
+}
+
+.tariffs-col_tab {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: space-between;
+    padding-bottom: 20px;
+}
