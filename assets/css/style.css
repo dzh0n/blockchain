@@ -468,7 +468,7 @@ body {
     margin-right: 5px;
 }
 
-.programm-cards .i-card {
+.programm-cards .i-card:last-of-type {
     justify-content: center;
 }
 
