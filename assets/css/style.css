@@ -271,6 +271,96 @@ body {
     padding: 45px 30px;
 }
 
+.i-cards {
+    display: flex;
+    justify-content: space-between;
+}
+
+.i-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 275px;
+    height: 365px;
+    padding: 50px 5px;
+    background: linear-gradient(127.76deg, #34373F 26.98%, rgba(17, 21, 25, 0.21) 168.18%);
+    box-shadow: 3px 3px 4px #0D0F12, -3px -3px 8px rgba(208, 206, 206, 0.04);
+    border-radius: 10px;
+}
+
+.i-card img {
+    width: 112px;
+    display: block;
+    margin-bottom: 20px;
+}
+
+.i-card .text {
+    text-align: center;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.i-card .text strong {
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.i-card .text span {
+    color: #2EB0F4;
+}
+
+.club-suits {
+    margin-bottom: 80px;
+}
+
+.club-help {
+    margin-bottom: 80px;
+}
+
+.t-cards {
+    display: flex;
+    justify-content: space-between;
+}
+
+.t-card {
+    background: linear-gradient(127.76deg, #34373F 26.98%, rgba(17, 21, 25, 0.21) 168.18%);
+    border: 1px solid #D2E0F0;
+    box-shadow: 3px 3px 4px #0D0F12, -3px -3px 8px rgba(208, 206, 206, 0.04);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 275px;
+    height: 290px;
+    padding: 0 15px;
+}
+
+.t-card_title {
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.t-card_title span {
+    color: #2EB0F4;
+}
+
+.t-card_text {
+    text-align: center;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.club-result {
+    margin-bottom: 80px;
+}
+
 .footer {
 
 }
