@@ -311,12 +311,16 @@ body {
     color: #2EB0F4;
 }
 
-.club-suits {
+.mb-80 {
     margin-bottom: 80px;
 }
 
+.club-suits {
+
+}
+
 .club-help {
-    margin-bottom: 80px;
+
 }
 
 .t-cards {
@@ -358,11 +362,11 @@ body {
 }
 
 .club-result {
-    margin-bottom: 80px;
+
 }
 
 .documents {
-    margin-bottom: 80px;
+
 }
 
 .documents-slider {
@@ -425,6 +429,10 @@ body {
     display: block;
     width: 100%;
     cursor: pointer;
+}
+
+.mb-0 {
+    margin-bottom: 0px;
 }
 
 .footer {
