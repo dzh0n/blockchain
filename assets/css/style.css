@@ -435,6 +435,43 @@ body {
     margin-bottom: 0px;
 }
 
+.programm-cards .t-card {
+    justify-content: flex-start;
+    padding-top: 85px;
+}
+
+.programm-cards .t-card:last-of-type {
+    justify-content: center;
+    padding-top: 0px;
+}
+
+.t-card_btn {
+    text-decoration: none;
+    background: linear-gradient(127.76deg, #34373F 26.98%, rgba(17, 21, 25, 0.21) 168.18%, #111519 168.18%);
+    border: 2px solid #2EB0F4;
+    box-shadow: 3px 3px 4px #0D0F12, -3px -3px 8px rgba(208, 206, 206, 0.04);
+    border-radius: 10px;
+    width: 211px;
+    height: 40px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    color: #D2E0F0;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 18px;
+    text-transform: uppercase;
+}
+
+.t-card_btn span {
+    color: #2EB0F4;
+    margin-right: 5px;
+}
+
+.programm-cards .i-card {
+    justify-content: center;
+}
+
 .footer {
 
 }
