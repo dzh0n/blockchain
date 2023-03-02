@@ -988,4 +988,52 @@ body {
         line-height: 17px;
     }
 
+    .document-text {
+        margin-right: 0;
+    }
+
+    .document-slide img {
+        width: 150px;
+    }
+
+    .document-slide {
+        padding: 25px 10px;
+    }
+
+    .tariffs-cols {
+        flex-wrap: wrap;
+    }
+
+    .socials-wrap {
+        flex-wrap: wrap;
+    }
+
+    .social-item {
+        width: 105px;
+        height: 105px;
+    }
+
+    .social-item img {
+        width: 64px;
+    }
+
+    .social-item_title {
+        font-size: 13px;
+        line-height: 15px;
+        margin-bottom: 15px;
+    }
+
+    .social-item a {
+        width: 95px;
+        height: 35px;
+        font-size: 8px;
+        line-height: 10px;
+    }
+
+    .t-card_btn {
+        width: 150px;
+        font-size: 11px;
+        line-height: 16px;
+    }
+
 }
