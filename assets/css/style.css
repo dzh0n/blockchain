@@ -855,6 +855,11 @@ body {
 
 @media (max-width: 567px) {
 
+    body {
+        width: 100%;
+        overflow-x: hidden;
+    }
+
     .header {
         height: 100px;
     }
@@ -917,6 +922,70 @@ body {
     .main-top_card-text strong {
         font-size: 16px;
         line-height: 19px;
+    }
+
+    .title {
+        font-weight: 700;
+        font-size: 21px;
+        line-height: 25px;
+        margin-bottom: 30px;
+    }
+
+    .i-cards {
+        flex-wrap: wrap;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap:10px;
+    }
+
+    .i-card {
+        height: 245px;
+        padding: 20px 5px 10px;
+        width: auto;
+    }
+
+    .i-card img {
+        width: 70px;
+        margin-bottom: 15px;
+    }
+
+    .i-card .text {
+        font-size: 13px;
+        line-height: 17px;
+    }
+
+    .i-card .text strong {
+        font-weight: 900;
+        font-size: 15px;
+        line-height: 19px;
+    }
+
+    .mb-80 {
+        margin-bottom: 40px;
+    }
+
+    .t-cards {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap:10px;
+
+    }
+
+    .t-card {
+        width: auto;
+        padding: 70px 5px 10px;
+        height: 220px;
+        justify-content: flex-start;
+    }
+
+    .t-card_title {
+        font-size: 16px;
+        line-height: 5px;
+    }
+
+    .t-card_text {
+        font-size: 13px;
+        line-height: 17px;
     }
 
 }
