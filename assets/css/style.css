@@ -864,7 +864,27 @@ body {
     }
 
     .header {
-        height: 100px;
+        /*height: 100px;*/
+        min-height: 70px;
+    }
+
+    .header-wrapper {
+        min-height: 70px;
+    }
+
+    .header.menu-open {
+        height: auto;
+    }
+
+    .header.menu-open .mobile-menu {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0 0 25px 25px;
+    }
+
+    .header.menu-open .mobile-menu a {
+        margin-bottom: 10px;
     }
 
     .container {
