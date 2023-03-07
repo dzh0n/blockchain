@@ -865,7 +865,7 @@ body {
     display: none;
 }
 
-.history-text_subtitle, .history-read__btn, .mobile-menu, .about-card_mtitle {
+.history-text_subtitle, .history-read__btn, .mobile-menu, .about-card_mtitle, .about-card_i {
     display: none;
 }
 
@@ -1349,6 +1349,7 @@ body {
         display: flex;
         align-items: center;
         justify-content: center;
+        position: relative;
     }
 
     .about-card_mtitle {
@@ -1358,5 +1359,20 @@ body {
         text-align: center;
         color: #DADCE0;
         display: block;
+    }
+
+    .about-card_i {
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        display: block;
+        width: 15px;
+        height: 15px;
+    }
+
+    .about-card_i img {
+        display: block;
+        width: 100%;
+        height: auto;
     }
 }
