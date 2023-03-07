@@ -36,6 +36,20 @@ $(document).ready(function () {
             nextEl: '.history-slider .documents-button-next',
             prevEl: '.history-slider .documents-button-prev',
         },
+        breakpoints: {
+            320: {
+                slidesPerView: 2,
+                slidesPerColumn: 2,
+                slidesPerColumnFill: 'row',
+                loop: false
+            },
+            567: {
+                slidesPerView: 1,
+                slidesPerColumn: 1,
+                slidesPerColumnFill: 'row',
+                loop: true
+            }
+        }
     });
 
     $('.tariffs-col_links a').on('click', function() {
