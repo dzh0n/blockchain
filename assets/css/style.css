@@ -860,6 +860,10 @@ body {
     display: none;
 }
 
+.history-text_subtitle {
+    display: none;
+}
+
 @media (max-width: 567px) {
 
     body {
@@ -1147,7 +1151,7 @@ body {
         padding: 0 15px;
     }
     .history-slide {
-        padding: 25px;
+        padding: 25px 10px;
         flex-direction: column;
         align-items: center;
         margin-bottom: 25px;
@@ -1169,6 +1173,7 @@ body {
         font-size: 16px;
         line-height: 19px;
         text-align: center;
+        margin-bottom: 0;
     }
 
     .history-text p {
@@ -1190,5 +1195,15 @@ body {
     .history-slide__tg img {
         display: block;
         width: 100%;
+    }
+
+    .history-text_subtitle {
+        display: inline-block;
+        text-align: center;
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 16px;
+        color: #D2E0F0;
+        margin-bottom: 10px;
     }
 }
