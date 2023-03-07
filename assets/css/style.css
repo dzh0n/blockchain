@@ -1086,6 +1086,11 @@ body {
 
     .document-slide img {
         order: 1;
+        margin-right: 10px;
+    }
+
+    .document-text {
+        order: 2;
     }
 
     .header-btns {
@@ -1096,13 +1101,22 @@ body {
 
     .header-btns a {
         display: block;
-        width: 40px;
+        width: 30px;
+        margin-left: 5px;
     }
 
     .header-btns a img {
         display: block;
         width: 100%;
         height: auto;
+    }
+
+    .t-card_title {
+        line-height: 18px;
+    }
+
+    .programm-cards .t-card {
+        padding-top: 55px;
     }
 
 }
