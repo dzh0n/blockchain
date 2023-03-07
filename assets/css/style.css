@@ -71,6 +71,11 @@ body {
     margin-right: 5px;
 }
 
+.logo span {
+    color: #2EB0F4;
+    margin-right: 5px;
+}
+
 .main-menu {
     display: flex;
     align-items: center;
@@ -79,14 +84,14 @@ body {
 
 .main-menu a {
     font-weight: 700;
-    font-size: 15px;
+    font-size: 14px;
     line-height: 18px;
     display: flex;
     align-items: center;
     text-decoration: none;
     color: #D2E0F0;
     border-bottom: transparent 1px solid;
-    margin-right: 30px;
+    margin-right: 25px;
 }
 
 .main-menu a:hover {
@@ -860,7 +865,7 @@ body {
     display: none;
 }
 
-.history-text_subtitle, .history-read__btn {
+.history-text_subtitle, .history-read__btn, .mobile-menu {
     display: none;
 }
 
