@@ -860,7 +860,7 @@ body {
     display: none;
 }
 
-.history-text_subtitle {
+.history-text_subtitle, .history-read__btn {
     display: none;
 }
 
@@ -1205,5 +1205,27 @@ body {
         line-height: 16px;
         color: #D2E0F0;
         margin-bottom: 10px;
+    }
+
+    .history-read__btn {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-decoration: none;
+        background: #32353D;
+        border: 1px solid #D2E0F0;
+        border-radius: 8px;
+        color: #2EB0F4;
+        font-weight: 900;
+        font-size: 12px;
+        line-height: 16px;
+        width: 128px;
+        height: 30px;
+        text-transform: uppercase;
+    }
+
+    .history-read__btn span {
+        margin-left: 5px;
+        color: #D2E0F0;
     }
 }
