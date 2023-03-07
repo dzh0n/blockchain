@@ -865,7 +865,7 @@ body {
     display: none;
 }
 
-.history-text_subtitle, .history-read__btn, .mobile-menu {
+.history-text_subtitle, .history-read__btn, .mobile-menu, .about-card_mtitle {
     display: none;
 }
 
@@ -1118,6 +1118,16 @@ body {
         justify-content: flex-start;
     }
 
+    .tariffs-col_links a span {
+        color: #2EB0F4;
+    }
+    .tariffs-col_tab ul {
+        font-weight: 700;
+    }
+    .tariffs-col_tab ul span {
+        color: #2EB0F4;
+    }
+
     .socials-wrap {
         flex-wrap: wrap;
     }
@@ -1332,5 +1342,21 @@ body {
         height: 30px;
         font-size: 14px;
         line-height: 17px;
+    }
+
+    .about-card {
+        padding: 0 15px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .about-card_mtitle {
+        font-weight: 700;
+        font-size: 13px;
+        line-height: 13px;
+        text-align: center;
+        color: #DADCE0;
+        display: block;
     }
 }
