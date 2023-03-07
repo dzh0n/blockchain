@@ -852,6 +852,9 @@ body {
     justify-content: space-between;
 }
 
+.header-btns {
+    display: none;
+}
 
 @media (max-width: 567px) {
 
@@ -993,11 +996,16 @@ body {
     }
 
     .document-slide img {
-        width: 150px;
+        width: auto;
+        height: 100px;
     }
 
     .document-slide {
         padding: 25px 10px;
+    }
+
+    .documents-button-prev, .documents-button-next {
+        display: none;
     }
 
     .tariffs-cols {
@@ -1031,9 +1039,70 @@ body {
     }
 
     .t-card_btn {
-        width: 150px;
+        width: 160px;
         font-size: 11px;
         line-height: 16px;
+    }
+
+    .about-card {
+        width: 110px !important;
+        height: 110px;
+        margin-bottom: 25px;
+    }
+
+    .about-card .about-card_title, .about-card .about-card_text {
+        display: none;
+    }
+
+    .documents .swiper-slide {
+        padding: 10px 10px;
+    }
+
+    .document-text {
+        font-size: 12px;
+        line-height: 14px;
+    }
+
+    .document-text_title {
+        font-size: 16px;
+        line-height: 19px;
+        margin-bottom: 0px;
+    }
+
+    .document-slide {
+        padding: 25px 10px;
+    }
+
+    .programm-cards .t-card:last-of-type {
+        border-color: transparent;
+        box-shadow: none;
+        background: transparent;
+    }
+
+    .programm-cards .i-card:last-of-type {
+        background: transparent;
+        box-shadow: none;
+    }
+
+    .document-slide img {
+        order: 1;
+    }
+
+    .header-btns {
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+    }
+
+    .header-btns a {
+        display: block;
+        width: 40px;
+    }
+
+    .header-btns a img {
+        display: block;
+        width: 100%;
+        height: auto;
     }
 
 }
