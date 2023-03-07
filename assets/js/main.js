@@ -69,4 +69,18 @@ $(document).ready(function () {
         $('.header').toggleClass('menu-open');
     });
 
+
+    if($('body').outerWidth() < 567) {
+        const tariffsSlider = new Swiper('.tariffs-slider', {
+            loop: true,
+            slidesPerView: 1,
+            spaceBetween: 20,
+            navigation: {
+                nextEl: '.tariffs-slider .documents-button-next',
+                prevEl: '.tariffs-slider .documents-button-prev',
+            },
+
+        });
+    }
+
 })

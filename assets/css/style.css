@@ -1041,8 +1041,81 @@ body {
         display: none;
     }
 
+    .main {
+        width: 100%;
+        overflow-x: hidden;
+    }
+
     .tariffs-cols {
-        flex-wrap: wrap;
+       /* flex-wrap: wrap;*/
+    }
+
+    .tariffs-col_data {
+        box-shadow: none;
+        background: transparent;
+    }
+
+    .tariffs-col_header {
+        box-shadow: none;
+        background: transparent;
+    }
+
+    .tariffs-col {
+        background: linear-gradient(127.76deg, #34373F 26.98%, #111519 168.18%);
+        border: 1px solid #D2E0F0;
+        box-shadow: 3px 3px 4px #0D0F12, -3px -3px 8px rgba(208, 206, 206, 0.04);
+        border-radius: 20px;
+        opacity: 0;
+    }
+
+    .tariffs-col.swiper-slide-active {
+        opacity: 1;
+    }
+
+    .tariffs-slider {
+        width: 85%;
+        margin: 0 auto;
+        position: relative;
+    }
+
+    .tariffs-slider .documents-button-prev {
+        display: block;
+        width: 30px;
+        height: 30px;
+        left: -33px;
+    }
+    .tariffs-slider .documents-button-next {
+        display: block;
+        width: 30px;
+        height: 30px;
+        right: -33px;
+    }
+
+    .tariffs-col_header {
+        margin-bottom: 10px;
+        padding: 30px 15px 0px;
+    }
+
+    .tariffs-col_title {
+
+    }
+
+    .tariffs-col_links a {
+        font-size: 18px;
+    }
+
+    .tariffs-col_data {
+        padding: 0 15px;
+        height: 450px;
+    }
+
+    .tariffs-col_data ul {
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .tariffs-col_tab {
+        justify-content: flex-start;
     }
 
     .socials-wrap {
@@ -1232,5 +1305,32 @@ body {
     .history-read__btn span {
         margin-left: 5px;
         color: #D2E0F0;
+    }
+    .modal {
+        padding: 25px;
+    }
+    .modal .tariffs-col {
+        display: none;
+    }
+    .modal-title {
+        font-size: 20px;
+        line-height: 24px;
+        margin-bottom: 15px;
+    }
+    .modal-form__row label {
+        font-size: 14px;
+        line-height: 17px;
+    }
+
+    .modal-form__row input[type='email'], .modal-form__row input[type='tel'], .modal-form__row input[type='text'] {
+        height: 35px;
+        font-size: 12px;
+        line-height: 16px;
+    }
+
+    .modal-form__row button {
+        height: 30px;
+        font-size: 14px;
+        line-height: 17px;
     }
 }
