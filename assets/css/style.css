@@ -865,7 +865,11 @@ body {
     display: none;
 }
 
-.history-text_subtitle, .history-read__btn, .mobile-menu, .about-card_mtitle, .about-card_i {
+.history-text_subtitle, .history-read__btn, .mobile-menu, .about-card_mtitle, .about-card_i, .about-cards__slider {
+    display: none;
+}
+
+.tariffs-slider .documents-button-next, .tariffs-slider .documents-button-prev {
     display: none;
 }
 
@@ -1374,5 +1378,92 @@ body {
         display: block;
         width: 100%;
         height: auto;
+    }
+
+    .about-cards__slider {
+        display: none;
+        position: relative;
+    }
+
+    .about-cards__slider .swiper-container {
+        width: 85%;
+        margin: 0 auto;
+        overflow: visible;
+    }
+
+    .about-cards__slider .about-card {
+        width: 100% !important;
+        height: 445px;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        padding: 25px 25px 0px;
+    }
+
+    .about-cards__slider .about-card_title {
+        display: flex;
+    }
+
+    .about-cards__slider .about-card_text {
+        display: block;
+        font-size: 16px;
+    }
+
+    .about-cards__slider .swiper-slide {
+        opacity: 0;
+    }
+
+    .about-cards__slider .swiper-slide-active {
+        opacity: 1;
+    }
+
+    .about-cards__slider .documents-button-prev, .about-cards__slider .documents-button-next {
+        display: block;
+    }
+
+    .about-cards__slider .documents-button-prev {
+        display: block;
+        width: 30px;
+        height: 30px;
+        left: -5px;
+    }
+
+    .about-cards__slider .documents-button-next {
+        display: block;
+        width: 30px;
+        height: 30px;
+        right: -5px;
+    }
+
+    .logo {
+        margin-right: 0px;
+        font-size: 18px;
+    }
+
+    .about-card_title img {
+        width: 20px;
+        margin-right: 5px;
+    }
+
+    .about-cards__slider .about-card_title {
+        font-size: 18px;
+    }
+
+    .about-close__btn {
+        width: 30px;
+        display: none;
+    }
+
+    .about-close__btn img {
+        display: block;
+        width: 100%;
+    }
+
+    .title-btn {
+        display: flex;
+    }
+
+    .tariffs-slider .documents-button-next, .tariffs-slider .documents-button-prev {
+        display: block;
     }
 }

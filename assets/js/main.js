@@ -81,6 +81,39 @@ $(document).ready(function () {
             },
 
         });
+
+        const aboutCardsSlider = new Swiper('.about-cards__slider .swiper-container', {
+            loop: true,
+            slidesPerView: 1,
+            spaceBetween: 0,
+            navigation: {
+                nextEl: '.about-cards__slider .documents-button-next',
+                prevEl: '.about-cards__slider .documents-button-prev',
+            },
+
+        });
+
+        $('.about-cards .about-card').on('click', function () {
+            //.about-close__btn
+            if($('.about-close__btn').is(':visible')) {
+
+            }
+            else {
+                $('.about-cards').hide();
+                $('.about-cards__slider').show();
+                aboutCardsSlider.update();
+                aboutCardsSlider.slideTo($(this).index()+1);
+                aboutCardsSlider.update();
+                $('.about-close__btn').show();
+            }
+
+        });
+
+        $('.about-close__btn').on('click', function(){
+            $('.about-close__btn').hide();
+            $('.about-cards__slider').hide();
+            $('.about-cards').css('display','flex');
+        });
     }
 
 })
