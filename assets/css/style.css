@@ -651,7 +651,7 @@ body {
     content: '';
     width: 14px;
     height: 15px;
-    background-image: url("../img/check-li.webp");
+    background-image: url("../img/check-li.png");
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
@@ -869,7 +869,7 @@ body {
     display: none;
 }
 
-.tariffs-slider .documents-button-next, .tariffs-slider .documents-button-prev {
+.tariffs-slider .documents-button-next, .tariffs-slider .documents-button-prev, .about-close__btn {
     display: none;
 }
 
