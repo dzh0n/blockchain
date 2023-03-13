@@ -937,6 +937,7 @@ body {
 
     .main-top_cards {
         flex-wrap: wrap;
+        justify-content: center;
     }
 
     .main-top_card {
@@ -1461,6 +1462,7 @@ body {
 
     .title-btn {
         display: flex;
+        justify-content: space-around;
     }
 
     .tariffs-slider .documents-button-next, .tariffs-slider .documents-button-prev {
