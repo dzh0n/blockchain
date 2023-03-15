@@ -869,7 +869,7 @@ body {
     display: none;
 }
 
-.tariffs-slider .documents-button-next, .tariffs-slider .documents-button-prev, .about-close__btn {
+.tariffs-slider .documents-button-next, .tariffs-slider .documents-button-prev, .about-close__btn, .history-slider__mob {
     display: none;
 }
 
@@ -1473,5 +1473,88 @@ body {
         display: block;
     }
 
+    .history-slider__mob .swiper-slide {
+        opacity: 0;
+    }
 
+    .history-slider__mob .swiper-slide-active {
+        opacity: 1;
+    }
+
+    .history-slider__mob {
+        position: relative;
+    }
+
+    .history-slider__mob .swiper-container {
+        width: 85%;
+        margin: 0 auto;
+        overflow: visible;
+    }
+
+    .history-slider__mob .documents-button-prev {
+        display: block;
+        width: 30px;
+        height: 30px;
+        left: -5px;
+    }
+
+    .history-slider__mob .documents-button-next {
+        display: block;
+        width: 30px;
+        height: 30px;
+        right: -5px;
+    }
+
+    .history-slider__mob .history-slide {
+        border: 1px solid #D2E0F0;
+        align-items: flex-start;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .history-slider__mob .history-text_title {
+        text-align: left;
+        font-size: 20px;
+    }
+
+    .history-slider__mob .history-text_subtitle {
+        font-size: 16px;
+        line-height: 19px;
+    }
+
+    .history-slider__mob .history-text p {
+        display: inline-block;
+        font-size: 14px;
+        line-height: 16px;
+    }
+
+    .history-slider__mob .history-text_btns .history-text_btn {
+        width: 100%;
+        display: flex;
+        font-size: 12px;
+        line-height: 16px;
+        text-align: center;
+    }
+
+    .history-slider__mob .history-text_btns .history-text_btn span {
+        color: #2EB0F4;
+        margin-left: 5px;
+    }
+
+    .history-slider__mob .history-slide__tg {
+        display: none;
+    }
+
+    .history-slider__mob .history-close__btn {
+        display: block;
+        position: absolute;
+        width: 35px;
+        top: 25px;
+        right: 15px;
+    }
+
+    .history-slider__mob .history-close__btn img {
+        display: block;
+        width: 100%;
+    }
 }

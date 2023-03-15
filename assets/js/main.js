@@ -54,7 +54,7 @@ $(document).ready(function () {
 
     $('.tariffs-col_links a').on('click', function() {
         $(this).addClass('active').siblings().removeClass('active');
-        console.log($(this).index());
+        //console.log($(this).index());
         $(this).parents('.tariffs-col').find('.tariffs-col_tab').eq($(this).index()).addClass('active').siblings().removeClass('active');
     });
 
@@ -114,6 +114,33 @@ $(document).ready(function () {
             $('.about-cards__slider').hide();
             $('.about-cards').css('display','flex');
         });
+
+
+        const historySliderMob = new Swiper('.history-slider__mob .swiper-container', {
+            loop: false,
+            slidesPerView: 1,
+            navigation: {
+                nextEl: '.history-slider__mob .documents-button-next',
+                prevEl: '.history-slider__mob .documents-button-prev',
+            },
+
+        });
+
+        $('.history-read__btn').on('click', function () {
+
+                console.log();
+                $('.history-slider').hide();
+                $('.history-slider__mob').show();
+                historySliderMob.update();
+                historySliderMob.slideTo($(this).parents('.swiper-slide').index());
+                historySliderMob.update();
+        });
+
+        $('.history-slider__mob .history-close__btn').on('click', function () {
+            $('.history-slider').show();
+            $('.history-slider__mob').hide();
+        });
+
     }
 
 })
