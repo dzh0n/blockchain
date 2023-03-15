@@ -25,14 +25,14 @@
                     </nav>
                 </div>
                 <div class="header-right">
-                    <a href="javascript:;">Изменить тему</a>
-                    <a href="javascript:;">Связь с нами</a>
-                    <a href="javascript:;">Оставить заявку</a>
+                    <!--<a href="javascript:;">Изменить тему</a>-->
+                    <a href="javascript:;" data-fancybox data-src="#order-mini">Связь с нами</a>
+                    <a href="javascript:;" data-fancybox data-src="#order-mini">Оставить заявку</a>
                 </div>
                 <div class="header-btns">
-                    <a href="javascript:;"><img src="assets/img/menu-btn_3.png" alt=""></a>
-                    <a href="javascript:;"><img src="assets/img/menu-btn_2.png" alt=""></a>
-                    <a href="javascript:;"><img src="assets/img/menu-btn_1.png" alt=""></a>
+                   <!--<a href="javascript:;"><img src="assets/img/menu-btn_3.png" alt=""></a>-->
+                    <a href="javascript:;" data-fancybox data-src="#order-mini"><img src="assets/img/menu-btn_2.png" alt=""></a>
+                    <a href="javascript:;" data-fancybox data-src="#order-mini"><img src="assets/img/menu-btn_1.png" alt=""></a>
                     <a href="javascript:;" class="mobile-menu__btn"><img src="assets/img/menu-btn.png" alt=""></a>
                 </div>
             </div>
@@ -1081,6 +1081,47 @@
             </div>
 
         </div>
+
+
+    </div>
+</div>
+
+<div class="modal" id="order-mini">
+    <div class="modal-title">ЗАЯВКА КАНДИДАТА НА ЧЛЕНСТВО В КЛУБЕ</div>
+    <div class="modal-wrap">
+        <form>
+            <div class="modal-form__row">
+                <label for="">Электронная почта</label>
+                <input type="email" name="email" required>
+            </div>
+            <div class="modal-form__row">
+                <label for="">Имя</label>
+                <input type="text" name="name" required>
+            </div>
+            <div class="modal-form__row">
+                <label for="">Фамилия</label>
+                <input type="text" name="fam" required>
+            </div>
+            <div class="modal-form__row">
+                <label for="">Телефон</label>
+                <input type="tel" name="fam" required>
+            </div>
+
+            <div class="modal-form__row">
+                <div class="modal-checks">
+                    <label><input type="radio" name="mes" value="WhatsApp" checked> WhatsApp</label>
+                    <label><input type="radio" name="mes" value="Телеграм"> Телеграм</label>
+                </div>
+                <input type="text" name="nickname" required>
+            </div>
+
+            <div class="modal-form__row">
+                <button>Оставить заявку</button>
+            </div>
+
+        </form>
+
+
 
 
     </div>

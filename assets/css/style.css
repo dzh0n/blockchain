@@ -873,6 +873,10 @@ body {
     display: none;
 }
 
+#order-mini {
+    max-width: 585px;
+}
+
 @media (max-width: 567px) {
 
     body {

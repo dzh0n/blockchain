@@ -39,7 +39,7 @@ $(document).ready(function () {
         breakpoints: {
             320: {
                 slidesPerView: 2,
-                slidesPerColumn: 2,
+                slidesPerColumn: 8,
                 slidesPerColumnFill: 'row',
                 loop: false
             },
